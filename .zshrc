@@ -24,16 +24,12 @@ zinit light zdharma/history-search-multi-word
 # クローンしたGit作業ディレクトリで、コマンド `git open` を実行するとブラウザでGitHubが開く
 zinit light paulirish/git-open
 
-# source "${HOME}/.zsh/aws.sh"
+
 if (which zprof > /dev/null 2>&1) ;then
     zprof
 fi
 
-# export PATH="$HOME/.nodenv/bin:$PATH"
-# eval "$(nodenv init -)"
-eval "$(anyenv init -)"
 
-# export GOPRIVATE=github.com/TechLoCo/*
 export PATH="$HOME/.goenv/shims:$PATH"
 
 # コマンドをtypoしたときに聞きなおしてくれる
